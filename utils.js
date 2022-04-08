@@ -1,0 +1,1 @@
+import {worldTeams} from "./data.js"
