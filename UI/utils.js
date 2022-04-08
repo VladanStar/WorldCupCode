@@ -23,3 +23,13 @@ export const generateResultGoals = function() {
         }
         return result;
       }
+
+      function getWinnerNameResult(result) {
+        if (result[0].localResult > result[0].visitResult) {
+          return result[0].localTeam;
+        } else if (result[0].localResult < result[0].visitResult) {
+          return result[0].visitTeam;
+        } else {
+          return null;
+        } 
+      }
