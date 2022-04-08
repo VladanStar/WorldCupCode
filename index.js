@@ -2,8 +2,7 @@ import { nameWorldCup, config } from "./config.js";
 import {
   worldTeams,
   titlesPlayOff,
-  groupsNames,
-  JORNADA,
+ 
   LOCAL_TEAM,
   VISIT_TEAM,
 } from "./data.js";
@@ -14,13 +13,13 @@ let winnerWorldCup = "";
 
 
 
-//FASE DE GRUPOS
+
 const groupsPhase = new WorldCupSimulator(nameWorldCup, worldTeams, config);
-//Muestra título de campeonato
+
 console.log(groupsPhase.name);
 console.log("Group");
 console.log("===============================");
-//Muestra grupos con equipos participantes
+
 groupsPhase.configSchedulesMatchDays();
 groupsPhase.groups.forEach((group) => {
   console.log();
@@ -77,7 +76,7 @@ for (
   });
 }
 
-//FASE DE ELIMINATORIAS
+
 const winnersPlayoff = groupsPhase.getWinnersToPlayoff();
 const playOff = new PlayOff(nameWorldCup, winnersPlayoff, config);
 playOff.start();
