@@ -33,3 +33,22 @@ export const generateResultGoals = function() {
           return null;
         } 
       }
+
+      export const getWinnerTeamNameResult = function(teamA, teamB, matchSummaryResults, resultsBeforeMatchesDays) {
+        let result = searchResultMatch(teamA, teamB, matchSummaryResults);
+        if(result.length == 0) {
+          let found = false;
+          for(let i = 0; i < resultsBeforeMatchesDays.length && found == false; i++) {
+            const res = resultsBeforeMatchesDays[i];
+            result = searchResultMatch(teamA, teamB, res);
+            if(result.length > 0){
+              found = true;
+            }
+          }
+        }
+        if(result.length == 0) {
+          return null;
+        } else {
+          return getWinnerNameResult(result);
+        }
+      }
