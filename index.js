@@ -94,7 +94,7 @@ for (let i = 0; i < playOff.totalDataPlayOff.length; i++) {
       winnerTeam = match.visitTeam;
     }
     console.log(
-      `${match.localTeam} ${match.resultLocalTeam} - ${match.visitTeam} ${match.resultVisitTeam} => ${winnerTeam}`
+      `${match.localTeam} ${match.resultLocalTeam} -  ${match.visitTeam} ${match.resultVisitTeam} => ${winnerTeam}`
     );
     winnerWorldCup = winnerTeam;
   }
@@ -102,5 +102,5 @@ for (let i = 0; i < playOff.totalDataPlayOff.length; i++) {
 console.log("");
 console.log("");
 console.log("===============================================");
-console.log(`${winnerWorldCup} Sampion Sveta!`);
+console.log(`${winnerWorldCup} Shampion World!`);
 console.log("===============================================");
