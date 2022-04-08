@@ -12,11 +12,7 @@ import PlayOff from "./group/PlayOff.js";
 
 let winnerWorldCup = "";
 
-export const nameWorldCup = "WORLD CUP";
-export const config = { rounds: 1, 
-                        pointsPerWin: 3,
-                        pointsPerDrawn: 1,
-                        pointsPerLost: 0 };
+
 
 //FASE DE GRUPOS
 const groupsPhase = new WorldCupSimulator(nameWorldCup, worldTeams, config);

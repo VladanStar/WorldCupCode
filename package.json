@@ -7,7 +7,11 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VladanStar/WorldCupCode.git"
+  },
+  "author": "VladanStar",
   "license": "ISC",
-  "dependencies": {}
+  "type": "module"
 }

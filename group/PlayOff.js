@@ -1,4 +1,4 @@
-import {generateResultGoals} from "../UI/utils.js"
+import {generateResultGoals} from "../utils.js"
 
 const NUMBER_TOTAL_TEAMS_PLAYOFF = 16;
 const NUMBER_TOTAL_MATCHES_PLAYOFF = 5;
