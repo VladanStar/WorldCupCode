@@ -24,13 +24,13 @@ console.log("===============================");
 groupsPhase.configSchedulesMatchDays();
 groupsPhase.groups.forEach((group) => {
   console.log();
-  console.log(`Grupa ${group.name}`);
+  console.log(`Group ${group.name}`);
   console.log("-----------------------");
   group.teams.forEach((team) => console.log(team.name));
   let indexMatch = 1;
   group.matchScheduleDay.forEach((match) => {
     console.log();
-    console.log(`Kolo ${indexMatch}`);
+    console.log(`Round ${indexMatch}`);
     match.forEach((matchDay) => {
       console.log(`- ${matchDay[LOCAL_TEAM]} vs ${matchDay[VISIT_TEAM]}`);
     });
@@ -39,7 +39,7 @@ groupsPhase.groups.forEach((group) => {
 });
 console.log();
 console.log("===============================================");
-console.log("==============  MUNDIJAL ============");
+console.log("==============  MUNDIAL ============");
 console.log("===============================================");
 groupsPhase.start();
 const numberMatchDay = groupsPhase.getNumberMatchDay();
