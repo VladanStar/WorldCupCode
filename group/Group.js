@@ -1,4 +1,4 @@
-import { generateResultGoals, getWinnerTeamNameResult } from "../UI/utils.js";
+import { generateResultGoals, getWinnerTeamNameResult } from "../utils.js";
 
 const LOCAL_TEAM = 0;
 const localTeamText = "Home Team";
