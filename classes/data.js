@@ -6,3 +6,20 @@ export const worldTeams = [
    ['Spanija(17)'], ['Novi Zeland(18)'], ['Nemacka(19)'], ['Japan(20)'], ['Belgija(21)'], ['Kanada(22)'], ['Maroko(23)'], ['Hrvatska(24)'],
     ['Brazil(25)'], ['Srbija(26)'], ['Svajcarska(27)'], ['Kamerun(28)'], ['Portugal(29)'], ['Gana(30)'],[ 'Urugvaj(31)'],[ 'Juzna Koreja(32)']
 ];
+
+export const LOCAL_TEAM = 0;
+export const localTeamText = 'Home Team';
+export const VISIT_TEAM = 1;
+export const visitTeamText = 'Guest Team';
+export const firstElementArray = 0;
+export const secondElementArray = 1;
+
+export const JORNADA = 'Round ';
+
+export const titlesPlayOff = [
+    "1/8  FINAL",
+    "1/4  FINAL",
+    "SEMIFINALE",
+    "UTAKMICA ZA TRECE MESTO",
+    "FINALE",
+];
