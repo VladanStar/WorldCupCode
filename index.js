@@ -90,7 +90,7 @@ for (let i = 0; i < playOff.totalDataPlayOff.length; i++) {
   console.log();
   for (const match of playOff.totalDataPlayOff[i]) {
     let winnerTeam = match.localTeam;
-    if (match.resultLocalTeam < match.resultVisitTeam) {
+    if (match.resultLocalTeam < match.resultVisitTeam) {`123453213456798`
       winnerTeam = match.visitTeam;
     }
     console.log(
