@@ -9,3 +9,17 @@ export const generateResultGoals = function() {
     }
     }
      // console.log(generateResultGoals());
+
+     function searchResultMatch(teamA, teamB, results) {
+        let result = results.filter(
+          (result) =>
+            result.localTeam == teamA.name && result.visitTeam == teamB.name
+        );
+        if (result.length == 0) {
+          result = results.filter(
+            (result) =>
+              result.localTeam == teamB.name && result.visitTeam == teamA.name
+          );
+        }
+        return result;
+      }
