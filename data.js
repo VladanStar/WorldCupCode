@@ -14,7 +14,7 @@ export const visitTeamText = 'Guest Team';
 export const firstElementArray = 0;
 export const secondElementArray = 1;
 
-export const JORNADA = 'Round ';
+export const ROUND = 'Round ';
 
 export const titlesPlayOff = [
     "1/8  FINAL",
